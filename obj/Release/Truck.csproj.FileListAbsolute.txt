@@ -1,0 +1,12 @@
+C:\Users\tingt\source\repos\Truck\Truck\bin\Release\Truck.exe.config
+C:\Users\tingt\source\repos\Truck\Truck\bin\Release\Truck.exe
+C:\Users\tingt\source\repos\Truck\Truck\bin\Release\Truck.pdb
+C:\Users\tingt\source\repos\Truck\Truck\obj\Release\Truck.csprojAssemblyReference.cache
+C:\Users\tingt\source\repos\Truck\Truck\obj\Release\Truck.Form1.resources
+C:\Users\tingt\source\repos\Truck\Truck\obj\Release\Truck.Move.resources
+C:\Users\tingt\source\repos\Truck\Truck\obj\Release\Truck.Properties.Resources.resources
+C:\Users\tingt\source\repos\Truck\Truck\obj\Release\Truck.Search.resources
+C:\Users\tingt\source\repos\Truck\Truck\obj\Release\Truck.csproj.GenerateResource.cache
+C:\Users\tingt\source\repos\Truck\Truck\obj\Release\Truck.csproj.CoreCompileInputs.cache
+C:\Users\tingt\source\repos\Truck\Truck\obj\Release\Truck.exe
+C:\Users\tingt\source\repos\Truck\Truck\obj\Release\Truck.pdb
