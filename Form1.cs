@@ -452,6 +452,12 @@ namespace Truck
             System.Diagnostics.Process.Start(radios[lastRow].link);
         }
 
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AboutBox1 about = new AboutBox1();
+            about.Show();
+        }
+
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Check_unsave();

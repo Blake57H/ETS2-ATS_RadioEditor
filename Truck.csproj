@@ -32,6 +32,13 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Main256.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -108,7 +115,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Main256.ico" />
+    <None Include="Resources\Main48.ico" />
+    <None Include="Resources\Mai64n.ico" />
+    <None Include="Resources\main16.ico" />
+    <None Include="Resources\main32x32.ico" />
+    <None Include="Resources\Main256.ico" />
     <None Include="Resources\Main.png" />
+    <None Include="Resources\Main128.ico" />
+    <None Include="Resources\128.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

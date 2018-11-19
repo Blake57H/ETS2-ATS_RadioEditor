@@ -15,7 +15,9 @@ namespace Truck
         {
             InitializeComponent();
             this.Text = "About this Editor";
-            textBox1.Text = "This program is made in the hope of that it will be useful (as well as handing out as my C# assignment)";
+            textBox1.Text = 
+                "This program is made in the hope of that it will be useful.\r" +
+                "(as well as handing out as my C# assignment)";
         }
 
         #region Assembly Attribute Accessors
@@ -98,9 +100,19 @@ namespace Truck
         }
         #endregion
 
-        private void AboutBox1_Load(object sender, EventArgs e)
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            System.Diagnostics.Process.Start(linkLabel1.Text);
+        }
 
+        private void okButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(linkLabel2.Text);
         }
     }
 }

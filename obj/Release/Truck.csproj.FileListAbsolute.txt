@@ -10,3 +10,4 @@ C:\Users\tingt\source\repos\Truck\Truck\obj\Release\Truck.csproj.GenerateResourc
 C:\Users\tingt\source\repos\Truck\Truck\obj\Release\Truck.csproj.CoreCompileInputs.cache
 C:\Users\tingt\source\repos\Truck\Truck\obj\Release\Truck.exe
 C:\Users\tingt\source\repos\Truck\Truck\obj\Release\Truck.pdb
+C:\Users\tingt\source\repos\Truck\Truck\obj\Release\Truck.AboutBox1.resources

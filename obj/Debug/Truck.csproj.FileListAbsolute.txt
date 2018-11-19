@@ -10,3 +10,4 @@ C:\Users\tingt\source\repos\Truck\Truck\obj\Debug\Truck.exe
 C:\Users\tingt\source\repos\Truck\Truck\obj\Debug\Truck.pdb
 C:\Users\tingt\source\repos\Truck\Truck\obj\Debug\Truck.Search.resources
 C:\Users\tingt\source\repos\Truck\Truck\obj\Debug\Truck.Move.resources
+C:\Users\tingt\source\repos\Truck\Truck\obj\Debug\Truck.AboutBox1.resources

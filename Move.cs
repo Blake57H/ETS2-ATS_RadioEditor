@@ -41,7 +41,7 @@ namespace Truck
             else
             {
                 Form1 form1 = new Form1();
-                this.Hide();
+                this.Close();
                 form1.Move_Radio_Action(Convert.ToInt32(Move_numericUpDown.Value));
             }
         }
