@@ -433,6 +433,8 @@ namespace Truck
             Control_Enable(false);
             dataGridView1.Rows.Clear();
             radios.Clear();
+            front_header.Clear();
+            rear_header.Clear();
             unsave = false;
         }
 
