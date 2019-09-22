@@ -37,8 +37,21 @@ namespace Truck
         //____________________________ app functions
         void Control_Enable(bool set)
         {
+            /*
             Update_Radio_button.Enabled = Delete_Radio_button.Enabled = Move_button.Enabled = Add_Radio_button.Enabled =
                 Reflesh_button.Enabled = Play_Radio_button.Enabled = set;
+                */
+
+            groupBox1.Enabled = set;
+            if(set == false)
+            {
+                Bitrate_textBox.Clear();
+                Name_textBox.Clear();
+                Genre_textBox.Clear();
+                Language_textBox.Clear();
+                Link_textBox.Clear();
+                Fav_checkBox.Checked = false;
+            }
         }
 
         void FileSave_enable(bool set)
@@ -185,7 +198,7 @@ namespace Truck
                 if (openFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     filePath = openFileDialog.FileName;
-                    MessageBox.Show(filePath);
+                    MessageBox.Show(filePath); //debug only
                     Load_file(filePath);
                 }
             }
@@ -201,14 +214,13 @@ namespace Truck
             radios.RemoveAt(lastRow);
             radios.Insert(toindex, temp);
 
-            Move_Radio_Action_sub();
+            
         }
 
-        void Move_Radio_Action_sub()
+        public void Move_Radio_Action_sub()
         {
             dataGridView1.Rows.Clear();
             Load_all_radio_to_grid();
-
         }
 
         //------------------------------------------------- Search functions
@@ -371,8 +383,8 @@ namespace Truck
             unsave = true;
             Move move = new Move();
             MessageBox.Show("After moving radio, reflesh list to see changes.", "This is a known issue", MessageBoxButtons.OK, MessageBoxIcon.Information); ;
-            move.Show();
             move.MaxIndex_Set(radios.Count - 1);
+            move.ShowDialog();
         }
 
         private void resetChangesToolStripMenuItem_Click(object sender, EventArgs e)

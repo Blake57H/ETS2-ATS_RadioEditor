@@ -107,34 +107,34 @@
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.openToolStripMenuItem.Text = "Open....";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // openETS2RadioListToolStripMenuItem
             // 
             this.openETS2RadioListToolStripMenuItem.Name = "openETS2RadioListToolStripMenuItem";
-            this.openETS2RadioListToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.openETS2RadioListToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.openETS2RadioListToolStripMenuItem.Text = "Open ETS2 Radio List";
             this.openETS2RadioListToolStripMenuItem.Click += new System.EventHandler(this.openETS2RadioListToolStripMenuItem_Click);
             // 
             // openATSRadioListToolStripMenuItem
             // 
             this.openATSRadioListToolStripMenuItem.Name = "openATSRadioListToolStripMenuItem";
-            this.openATSRadioListToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.openATSRadioListToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.openATSRadioListToolStripMenuItem.Text = "Open ATS Radio List";
             this.openATSRadioListToolStripMenuItem.Click += new System.EventHandler(this.openATSRadioListToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(182, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(181, 6);
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Enabled = false;
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
@@ -142,7 +142,7 @@
             // 
             this.saveAsToolStripMenuItem.Enabled = false;
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.saveAsToolStripMenuItem.Text = "Save as....";
             this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.saveAsToolStripMenuItem_Click);
             // 
@@ -150,19 +150,19 @@
             // 
             this.closeToolStripMenuItem.Enabled = false;
             this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
-            this.closeToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.closeToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.closeToolStripMenuItem.Text = "Close";
             this.closeToolStripMenuItem.Click += new System.EventHandler(this.closeToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(182, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(181, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -235,7 +235,7 @@
             this.Index_column.Name = "Index_column";
             this.Index_column.ReadOnly = true;
             this.Index_column.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Index_column.Width = 41;
+            this.Index_column.Width = 42;
             // 
             // Description_column
             // 
@@ -288,7 +288,6 @@
             // Reflesh_button
             // 
             this.Reflesh_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.Reflesh_button.Enabled = false;
             this.Reflesh_button.Location = new System.Drawing.Point(398, 74);
             this.Reflesh_button.Name = "Reflesh_button";
             this.Reflesh_button.Size = new System.Drawing.Size(109, 23);
@@ -319,7 +318,6 @@
             // Add_Radio_button
             // 
             this.Add_Radio_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.Add_Radio_button.Enabled = false;
             this.Add_Radio_button.Location = new System.Drawing.Point(513, 74);
             this.Add_Radio_button.Name = "Add_Radio_button";
             this.Add_Radio_button.Size = new System.Drawing.Size(79, 23);
@@ -332,7 +330,6 @@
             // Play_Radio_button
             // 
             this.Play_Radio_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.Play_Radio_button.Enabled = false;
             this.Play_Radio_button.Location = new System.Drawing.Point(598, 74);
             this.Play_Radio_button.Name = "Play_Radio_button";
             this.Play_Radio_button.Size = new System.Drawing.Size(75, 23);
@@ -343,7 +340,6 @@
             // 
             // Move_button
             // 
-            this.Move_button.Enabled = false;
             this.Move_button.Location = new System.Drawing.Point(194, 74);
             this.Move_button.Name = "Move_button";
             this.Move_button.Size = new System.Drawing.Size(115, 23);
@@ -354,7 +350,6 @@
             // 
             // Delete_Radio_button
             // 
-            this.Delete_Radio_button.Enabled = false;
             this.Delete_Radio_button.Location = new System.Drawing.Point(100, 74);
             this.Delete_Radio_button.Name = "Delete_Radio_button";
             this.Delete_Radio_button.Size = new System.Drawing.Size(88, 23);
@@ -365,7 +360,6 @@
             // 
             // Update_Radio_button
             // 
-            this.Update_Radio_button.Enabled = false;
             this.Update_Radio_button.Location = new System.Drawing.Point(6, 74);
             this.Update_Radio_button.Name = "Update_Radio_button";
             this.Update_Radio_button.Size = new System.Drawing.Size(88, 23);

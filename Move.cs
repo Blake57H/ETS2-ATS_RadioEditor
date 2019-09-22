@@ -21,12 +21,6 @@ namespace Truck
             //Move_numericUpDown.Minimum = 0;
         }
 
-
-
-
-
-
-
         public Move()
         {
             InitializeComponent();
@@ -45,5 +39,6 @@ namespace Truck
                 form1.Move_Radio_Action(Convert.ToInt32(Move_numericUpDown.Value));
             }
         }
+
     }
 }
